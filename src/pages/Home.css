@@ -1,0 +1,172 @@
+/* Home.css */
+
+/* General Styling */
+.home-container {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("/images/hero-bg.jpg") no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color:black;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-secondary {
+  background: #28a745;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #1e7e34;
+}
+
+/* Features Section */
+.features {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.feature-card img {
+  width: 80px;
+  height: 80px;
+}
+
+.feature-card h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 50px 20px;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.homepage-image {
+  width: 75%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+
+.step {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.step span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Call to Action Section */
+.cta {
+  padding: 50px 20px;
+  background: #007bff;
+  color: white;
+}
+
+.cta h2 {
+  font-size: 2rem;
+}
+/* filepath: c:\Users\saipr\OneDrive\Desktop\klu\hackathon\RAMpage\ServEase\frontend\src\pages\Home.css */
+.btn-tertiary {
+  background: #ffc107;
+  color: white;
+}
+
+.btn-tertiary:hover {
+  background: #e0a800;
+}
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta .btn {
+  background: white;
+  color: #007bff;
+}
+
+.cta .btn:hover {
+  background: #f1f1f1;
+}

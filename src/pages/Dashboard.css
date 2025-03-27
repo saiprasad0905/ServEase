@@ -1,0 +1,35 @@
+.dashboard {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dashboard h2 {
+    color: #0077b6;
+  }
+  
+  .dashboard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard li {
+    padding: 10px;
+    background: #f1f1f1;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .dashboard button {
+    background: #0077b6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dashboard button:hover {
+    background: #005f8a;
+  }
+  
