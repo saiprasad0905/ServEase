@@ -1,0 +1,55 @@
+.provider-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.provider-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.provider-table th, .provider-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.provider-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.provider-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.provider-table tr:hover {
+    transform: scale(1.1);
+    background-color: #e3e3e3;
+}
+
+.book-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.book-btn:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+
+.book-link {
+    color: white;
+    text-decoration: none;
+}

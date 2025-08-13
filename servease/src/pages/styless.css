@@ -1,0 +1,39 @@
+.auth-container, .payment-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #e3f2fd;
+  }
+  
+  .auth-form, .payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .auth-form label, .payment-form label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .auth-form input, .payment-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-btn, .pay-btn {
+    padding: 10px 15px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .auth-btn:hover, .pay-btn:hover {
+    background-color: #005f8a;
+  }
+  
